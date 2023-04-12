@@ -19,10 +19,10 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-<div align="center">
+
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-<div/>
+
 
 
 <!-- PROJECT LOGO -->
@@ -61,7 +61,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -203,9 +202,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Rodrigo Rocha Amorim -
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Email: - rodrigoamorim954@gmail.com
+
+Linkedin : [Rodrigo-amorim](https://www.linkedin.com/in/rodrigo-amoriim/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
