@@ -57,7 +57,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites">Requirements</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -111,43 +111,63 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Requirements
 
 The prerequisite for this project are:
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
-### Installation
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
+- [Nodejs](https://nodejs.org/en/)
+  - You'll know you've installed nodejs right if you can run:
+    - `node --version` and get an ouput like: `vx.x.x`
+- [Yarn](https://yarnpkg.com/getting-started/install) instead of `npm`
+  - You'll know you've installed yarn right if you can run:
+    - `yarn --version` and get an output like: `x.x.x`
+    - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
+    
+### Quickstart
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```
+git clone https://github.com/RodrigoAmorim954/CrowdFunding-Project
+cd CrowdFunding-Project
+yarn
+```
 
 
+### Alternative Instalation
 
-<!-- USAGE EXAMPLES -->
+If you choose to create an empty hardhat project, you can do using the steps below:
+
+```
+yarn add --dev hardhat
+yarn hardhat
+```
+After this, you can add those dependencies: 
+
+```
+yarn add --dev dotenv prettier prettier-plugin-solidity hardhat-deploy @chainlink/contracts 
+```
+
 ## Usage
 
-This Project can be used to crowdfund for a specific task or be used as base to create a more robust and interesting project, like a loterry smart contract.
+Deploy:
+
+```
+yarn hardhat deploy
+```
+
+Testing
+
+```
+yarn hardhat test
+```
+
+Test Coverage
+
+```
+yarn hardhat coverage
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
