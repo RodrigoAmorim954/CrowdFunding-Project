@@ -223,7 +223,7 @@ Rodrigo Rocha Amorim -
 
 Email:  rodrigoamorim954@gmail.com
 
-Linkedin : [Rodrigo-amorim](https://www.linkedin.com/in/rodrigo-amoriim/)
+Linkedin : [Rodrigo amorim](https://www.linkedin.com/in/rodrigo-amoriim/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
