@@ -168,6 +168,11 @@ Test Coverage
 yarn hardhat coverage
 ```
 
+Run Scripts
+```
+yarn hardhat run scrips/fund.js
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
