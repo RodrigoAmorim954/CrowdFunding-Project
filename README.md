@@ -146,6 +146,7 @@ After this, you can add those dependencies:
 ```
 yarn add --dev dotenv prettier prettier-plugin-solidity hardhat-deploy @chainlink/contracts 
 ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
